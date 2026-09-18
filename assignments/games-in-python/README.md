@@ -1,19 +1,46 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a word-guessing game that uses Python strings, loops, conditionals, user input, and random selection.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Select a Secret Word
 
-## ✅ Must Have's
+#### Description
+Create a list of possible words and randomly select one word for the player to guess.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Store multiple possible words in a predefined list.
+- Use Python's `random` module to select one secret word.
+- Keep the selected word hidden from the player during the game.
+
+### 🛠️ Build the Guessing Loop
+
+#### Description
+Allow the player to guess letters and reveal their progress until the word is complete or the player runs out of attempts.
+
+#### Requirements
+Completed program should:
+
+- Display the current progress using underscores for letters that have not been guessed, such as `_ _ _`.
+- Accept a letter guess from the player.
+- Reveal every matching letter in the secret word.
+- Track incorrect guesses and reduce the number of remaining attempts.
+- Continue playing until the word is guessed or no attempts remain.
+
+### 🛠️ Display the Game Result
+
+#### Description
+End the game with a clear message that tells the player whether they won or lost.
+
+#### Requirements
+Completed program should:
+
+- Display a win message when all letters in the secret word are revealed.
+- Display a lose message when the player runs out of incorrect guesses.
+- Reveal the secret word when the player loses.
