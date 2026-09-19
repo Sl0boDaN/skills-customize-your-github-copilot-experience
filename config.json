@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-python-programs",
+      "title": "Testing Python Programs",
+      "description": "Write pytest tests for Python functions and FastAPI endpoints",
+      "path": "assignments/testing-python-programs",
+      "dueDate": "2026-09-26",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
